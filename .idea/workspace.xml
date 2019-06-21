@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75f00053-5daa-4638-b1fd-3a36ba00f0fb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/crawler-job/src/main/java/com/job/task/ProxyTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simhash-master/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simhash-master/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simhash-master/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simhash-master/src/main/java/com/lou/simhasher/KeywordExtractor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simhash-master/src/main/java/com/lou/simhasher/SimHasher.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simhash-master/src/main/java/com/lou/simhasher/seg/WordsSegment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simhash-master/src/main/java/com/lou/simhasher/util/DicReader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simhash-master/src/main/java/com/lou/simhasher/util/FNVHash.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simhash-master/src/main/resources/dict/idf.utf8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simhash-master/src/main/resources/dict/stop_words.utf8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simhash-master/src/test/java/com/lou/simhasher/SimhashTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler-job/src/main/java/com/job/task/ProxyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/crawler-job/src/main/java/com/job/task/ProxyTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -38,11 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/crawler-job/src/main/java/com/job/task/ProxyTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="22" column="58" lean-forward="true" selection-start-line="22" selection-start-column="58" selection-end-line="22" selection-end-column="58" />
+            <state relative-caret-position="197">
+              <caret line="23" column="8" lean-forward="true" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#676#677#0" expanded="true" />
@@ -54,11 +39,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/crawler-job/src/main/java/com/job/task/JobProcessor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="101" column="59" selection-start-line="101" selection-start-column="59" selection-end-line="101" selection-end-column="59" />
+            <state relative-caret-position="270">
+              <caret line="101" column="6" selection-start-line="101" selection-start-column="6" selection-end-line="101" selection-end-column="6" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -127,9 +112,9 @@
         <option value="$PROJECT_DIR$/crawler-job/src/main/java/com/job/task/SpringDataPipeLine.java" />
         <option value="$PROJECT_DIR$/crawler-job/src/main/java/com/job/task/SpringDataPipeline.java" />
         <option value="$PROJECT_DIR$/crawler-job/src/main/java/com/job/task/TaskTest.java" />
-        <option value="$PROJECT_DIR$/crawler-job/src/main/java/com/job/task/JobProcessor.java" />
         <option value="$PROJECT_DIR$/simhash-master/src/main/java/com/lou/simhasher/KeywordExtractor.java" />
         <option value="$PROJECT_DIR$/simhash-master/pom.xml" />
+        <option value="$PROJECT_DIR$/crawler-job/src/main/java/com/job/task/JobProcessor.java" />
         <option value="$PROJECT_DIR$/crawler-job/src/main/java/com/job/task/ProxyTest.java" />
       </list>
     </option>
@@ -163,7 +148,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="72" />
+    <option name="x" value="-72" />
+    <option name="y" value="142" />
     <option name="width" value="1940" />
     <option name="height" value="1060" />
   </component>
@@ -385,7 +371,7 @@
       <workItem from="1561078105035" duration="7120000" />
       <workItem from="1561096507040" duration="3376000" />
       <workItem from="1561108547052" duration="1868000" />
-      <workItem from="1561124711003" duration="5606000" />
+      <workItem from="1561124711003" duration="7002000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1561108627010</created>
@@ -415,7 +401,14 @@
       <option name="project" value="LOCAL" />
       <updated>1561128795483</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="commit">
+      <created>1561131135786</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1561131135786</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -451,10 +444,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90951000" />
+    <option name="totallyTimeSpent" value="92347000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17962466" />
@@ -480,7 +473,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" />
-      <window_info anchor="bottom" id="Run Dashboard" order="15" weight="0.3198324" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" visible="true" weight="0.3198324" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -502,16 +495,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/crawler-jd/src/main/java/com/jsu/service/ItemService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/JAVA/JDK/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="101">
@@ -881,20 +864,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crawler-job/src/main/java/com/job/task/ProxyTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="22" column="58" lean-forward="true" selection-start-line="22" selection-start-column="58" selection-end-line="22" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#676#677#0" expanded="true" />
-            <element signature="e#697#698#0" expanded="true" />
-            <element signature="e#477#478#0" expanded="true" />
-            <element signature="e#504#505#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/crawler-job/src/main/java/com/job/task/TaskTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -907,10 +876,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/crawler-job/src/main/java/com/job/task/JobProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="101" column="59" selection-start-line="101" selection-start-column="59" selection-end-line="101" selection-end-column="59" />
+        <state relative-caret-position="270">
+          <caret line="101" column="6" selection-start-line="101" selection-start-column="6" selection-end-line="101" selection-end-column="6" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/us/codecraft/webmagic-core/0.6.1/webmagic-core-0.6.1.jar!/us/codecraft/webmagic/downloader/HttpClientDownloader.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-26">
+          <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+          <folding>
+            <element signature="method#getHttpClient#0;class#HttpClientDownloader#0" />
+            <element signature="method#download#0;class#HttpClientDownloader#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawler-job/src/main/java/com/job/task/ProxyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="23" column="8" lean-forward="true" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#676#677#0" expanded="true" />
+            <element signature="e#697#698#0" expanded="true" />
+            <element signature="e#477#478#0" expanded="true" />
+            <element signature="e#504#505#0" expanded="true" />
           </folding>
         </state>
       </provider>

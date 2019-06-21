@@ -5,7 +5,12 @@ import org.springframework.stereotype.Component;
 import us.codecraft.webmagic.Page;
 import us.codecraft.webmagic.Site;
 import us.codecraft.webmagic.Spider;
+import us.codecraft.webmagic.downloader.HttpClientDownloader;
 import us.codecraft.webmagic.processor.PageProcessor;
+
+import java.lang.reflect.Proxy;
+
+import static sun.management.snmp.AdaptorBootstrap.DefaultValues.PORT;
 
 /**
  * @program: crawler
@@ -19,8 +24,14 @@ public class ProxyTest implements PageProcessor {
 
     @Scheduled(fixedDelay = 1000)
     public void Process() {
+        //创建下载器Downloader
+        HttpClientDownloader httpClientDownloader = new HttpClientDownloader();
+
+        //给下载器设置代理服务器消息
+
         Spider.create(new ProxyTest())
                 .addUrl("http://ip.chinaz.com/")
+                .setDownloader(httpClientDownloader) //设置下载器
                 .run();
     }
 
