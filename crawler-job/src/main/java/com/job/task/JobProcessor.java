@@ -68,7 +68,7 @@ public class JobProcessor implements PageProcessor {
         //System.out.println(jobInfo.getCompany_addr());
         jobInfo.setCompany_info(Jsoup.parse(html.css("div.tmsg").toString()).text());
         jobInfo.setJob_name(html.css("div.cn h1","text").toString());
-        jobInfo.setJob_addr(html.css("div.cn p.msg ltype","tetx").toString());
+        jobInfo.setJob_addr(html.css("div.cn p.msg ltype","text").toString());
         jobInfo.setJob_info(Jsoup.parse(html.css("div.job_msg").toString()).text());
         jobInfo.setUrl(page.getUrl().toString());
 
@@ -99,7 +99,7 @@ public class JobProcessor implements PageProcessor {
 
     //initialDelay当任务启动后,等待多久执行方法
     //fixedDelay每隔多久执行方法
-    @Scheduled(initialDelay = 1000,fixedDelay = 100 * 1000)
+    //@Scheduled(initialDelay = 1000,fixedDelay = 100 * 1000)
     public void process() {
         Spider.create(new JobProcessor())
                 .addUrl(url)

@@ -7,8 +7,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="crawler-jd" />
-        <module name="crawler-webmagic" />
         <module name="crawler-first" />
+        <module name="crawler-webmagic" />
         <module name="crawler-job" />
       </profile>
     </annotationProcessing>
