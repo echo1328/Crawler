@@ -99,7 +99,7 @@ public class JobProcessor implements PageProcessor {
 
     //initialDelay当任务启动后,等待多久执行方法
     //fixedDelay每隔多久执行方法
-    //@Scheduled(initialDelay = 1000,fixedDelay = 100 * 1000)
+    @Scheduled(initialDelay = 1000,fixedDelay = 100 * 1000)
     public void process() {
         Spider.create(new JobProcessor())
                 .addUrl(url)

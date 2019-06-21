@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75f00053-5daa-4638-b1fd-3a36ba00f0fb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/crawler-job/src/main/java/com/job/task/JobProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/crawler-job/src/main/java/com/job/task/JobProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler-job/src/main/java/com/job/task/TaskTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/crawler-job/src/main/java/com/job/task/TaskTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler-job/target/classes/com/job/task/JobProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/crawler-job/target/classes/com/job/task/JobProcessor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler-job/target/classes/com/job/task/TaskTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/crawler-job/target/classes/com/job/task/TaskTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -12,6 +17,8 @@
     <ignored path="$PROJECT_DIR$/crawler-jd/target/" />
     <ignored path="$PROJECT_DIR$/crawler-webmagic/target/" />
     <ignored path="$PROJECT_DIR$/crawler-job/target/" />
+    <ignored path="$PROJECT_DIR$/simhash-master/target/" />
+    <ignored path="$USER_HOME$/Desktop/simhash-master/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +89,9 @@
         <option value="$PROJECT_DIR$/crawler-job/src/main/java/com/job/task/MathSalary.java" />
         <option value="$PROJECT_DIR$/crawler-job/src/main/java/com/job/task/SpringDataPipeLine.java" />
         <option value="$PROJECT_DIR$/crawler-job/src/main/java/com/job/task/SpringDataPipeline.java" />
+        <option value="$PROJECT_DIR$/crawler-job/src/main/java/com/job/task/TaskTest.java" />
         <option value="$PROJECT_DIR$/crawler-job/src/main/java/com/job/task/JobProcessor.java" />
+        <option value="$PROJECT_DIR$/simhash-master/src/main/java/com/lou/simhasher/KeywordExtractor.java" />
       </list>
     </option>
   </component>
@@ -112,62 +121,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="crawler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Crawler" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="crawler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Crawler" type="462c0819:PsiDirectoryNode" />
-              <item name="crawler-job" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="crawler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Crawler" type="462c0819:PsiDirectoryNode" />
-              <item name="crawler-job" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="crawler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Crawler" type="462c0819:PsiDirectoryNode" />
-              <item name="crawler-job" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="crawler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Crawler" type="462c0819:PsiDirectoryNode" />
-              <item name="crawler-job" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="crawler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Crawler" type="462c0819:PsiDirectoryNode" />
-              <item name="crawler-job" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="job" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="crawler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Crawler" type="462c0819:PsiDirectoryNode" />
-              <item name="crawler-job" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="job" type="462c0819:PsiDirectoryNode" />
-              <item name="task" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
@@ -180,7 +134,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/simhash-master" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -323,7 +277,7 @@
       <workItem from="1561078105035" duration="7120000" />
       <workItem from="1561096507040" duration="3376000" />
       <workItem from="1561108547052" duration="1868000" />
-      <workItem from="1561124711003" duration="698000" />
+      <workItem from="1561124711003" duration="3424000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1561108627010</created>
@@ -339,7 +293,14 @@
       <option name="project" value="LOCAL" />
       <updated>1561109818362</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="commit">
+      <created>1561125665145</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1561125665145</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -375,12 +336,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86043000" />
+    <option name="totallyTimeSpent" value="88769000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15683647" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17225201" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -403,7 +364,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" />
-      <window_info anchor="bottom" id="Run Dashboard" order="15" visible="true" weight="0.1801676" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="15" visible="true" weight="0.3198324" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -425,33 +386,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/crawler-first/src/main/java/com/crawler/test/HttpConfigTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="27" column="64" selection-start-line="27" selection-start-column="64" selection-end-line="27" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crawler-first/src/main/java/com/crawler/test/HttpGetParamTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-210">
-          <caret line="20" column="69" lean-forward="true" selection-start-line="20" selection-start-column="69" selection-end-line="20" selection-end-column="69" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crawler-first/src/main/java/com/crawler/test/HttpPostTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/crawler-first/src/main/java/com/crawler/test/HttpPostParamTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -607,16 +541,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crawler-job/src/main/java/com/job/service/impl/JobInfoServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -793,9 +717,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/crawler-job/src/main/java/com/job/task/MathSalary.java" />
-    <entry file="file://$PROJECT_DIR$/crawler-job/crawler-job.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/crawler-first/src/test/java/jsoup/JsoupFirstTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-510">
@@ -816,20 +737,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crawler-job/src/main/java/com/job/task/JobProcessor.java">
+    <entry file="file://$PROJECT_DIR$/crawler-job/src/main/java/com/job/Application2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="101" column="6" selection-start-line="101" selection-start-column="6" selection-end-line="101" selection-end-column="6" />
+        <state relative-caret-position="336">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crawler-job/src/main/java/com/job/Application2.java">
+    <entry file="file://$PROJECT_DIR$/crawler-job/src/main/java/com/job/task/TaskTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        <state relative-caret-position="311">
+          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#341#342#0" expanded="true" />
+            <element signature="e#362#363#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawler-job/crawler-job.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawler-job/src/main/java/com/job/task/JobProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="101" column="59" selection-start-line="101" selection-start-column="59" selection-end-line="101" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawler-job/src/main/java/com/job/service/impl/JobInfoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="936">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simhash-master/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-540" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simhash-master/src/main/java/com/lou/simhasher/KeywordExtractor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="34" column="38" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -886,7 +847,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>crawler</last-edited>
+          <last-edited>simhasher</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
