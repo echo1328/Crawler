@@ -2,6 +2,7 @@ package com.job.task;
 
 import com.job.pojo.JobInfo;
 import org.jsoup.Jsoup;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 import us.codecraft.webmagic.Page;
@@ -78,7 +79,8 @@ public class JobProcessor implements PageProcessor {
         //获取发布时间
         jobInfo.setTime("06-23");
 
-        System.out.println("page");
+        //把结果保存起来
+        page.putField("jobInfo", jobInfo);
     }
 
     private Site site = Site.me()
@@ -92,6 +94,9 @@ public class JobProcessor implements PageProcessor {
         return site;
     }
 
+    @Autowired
+    private SpringDataPipeline springDataPipeline;
+
     //initialDelay当任务启动后,等待多久执行方法
     //fixedDelay每隔多久执行方法
     @Scheduled(initialDelay = 1000,fixedDelay = 100 * 1000)
@@ -100,6 +105,7 @@ public class JobProcessor implements PageProcessor {
                 .addUrl(url)
                 .setScheduler(new QueueScheduler().setDuplicateRemover(new BloomFilterDuplicateRemover(100000)))
                 .thread(10)
+                .addPipeline(springDataPipeline)
                 .run();
     }
 
