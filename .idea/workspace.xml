@@ -2,20 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75f00053-5daa-4638-b1fd-3a36ba00f0fb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/crawler-es/src/test/java/ESTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crawler-es/target/classes/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crawler-es/target/classes/com/es/dao/ItemRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crawler-es/target/classes/com/es/pojo/Item.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crawler-es/target/classes/com/es/service/ItemService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crawler-es/target/classes/com/es/service/impl/ItemServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crawler-es/target/classes/com/es/test/ESTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crawler-es/target/test-classes/ESTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crawler-es/target/test-classes/META-INF/crawler-es.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crawler-tm/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crawler-tm/src/main/java/com/tm/Application3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crawler-tm/src/main/java/com/tm/dao/GoodsDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crawler-tm/src/main/java/com/tm/pojo/Goods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crawler-tm/src/main/java/com/tm/service/GoodsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crawler-tm/src/main/java/com/tm/service/impl/GoodsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crawler-tm/src/main/java/com/tm/task/JobProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crawler-tm/src/main/java/com/tm/task/SpringDataPipeline.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crawler-tm/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crawler-tm/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/crawler-es/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crawler-es/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/crawler-es/src/main/java/com/es/pojo/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/crawler-es/src/main/java/com/es/pojo/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawler-es/src/main/java/com/es/test/ESTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/crawler-es/src/main/java/com/es/test/ESTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/crawler-es/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crawler-es/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler-es/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crawler-es/target/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler-es/target/classes/com/es/pojo/Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/crawler-es/target/classes/com/es/pojo/Item.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler-first/src/main/java/com/crawler/test/HttpGetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/crawler-first/src/main/java/com/crawler/test/HttpGetTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler-first/target/classes/com/crawler/test/HttpGetTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/crawler-first/target/classes/com/crawler/test/HttpGetTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler-first/target/classes/com/crawler/test/util/CookieUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler-job/src/main/java/com/job/task/ProxyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/crawler-job/src/main/java/com/job/task/ProxyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,6 +35,7 @@
     <ignored path="$PROJECT_DIR$/simhash-master/target/" />
     <ignored path="$USER_HOME$/Desktop/simhash-master/target/" />
     <ignored path="$PROJECT_DIR$/crawler-es/target/" />
+    <ignored path="$PROJECT_DIR$/crawler-tm/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,14 +46,27 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/crawler-tm/src/main/java/com/tm/task/JobProcessor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="87" selection-start-line="87" selection-end-line="87" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="spring-beans.schema" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="spring-beans.schema" />
       </list>
     </option>
   </component>
@@ -58,16 +81,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/crawler-first/src/main/java/com/crawler/test/HttpPostParamTest.java" />
-        <option value="$PROJECT_DIR$/crawler-first/src/main/java/com/crawler/test/HttpClientPoolTest.java" />
-        <option value="$PROJECT_DIR$/crawler-first/src/main/java/com/crawler/test/HttpConfigTest.java" />
-        <option value="$PROJECT_DIR$/crawler-first/pom.xml" />
-        <option value="$PROJECT_DIR$/crawler-jd/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/crawler-jd/src/main/java/com/jsu/pojo/Item.java" />
-        <option value="$PROJECT_DIR$/crawler-jd/src/main/java/com/jsu/dao/ItemDao.java" />
-        <option value="$PROJECT_DIR$/crawler-jd/src/main/java/com/jsu/ItemService.java" />
-        <option value="$PROJECT_DIR$/crawler-jd/src/main/java/com/jsu/service/ItemServiceImpl.java" />
-        <option value="$PROJECT_DIR$/crawler-jd/src/main/java/com/jsu/service/ItemService.java" />
         <option value="$PROJECT_DIR$/crawler-jd/src/main/java/com/jsu/Application.java" />
         <option value="$PROJECT_DIR$/crawler-jd/pom.xml" />
         <option value="$PROJECT_DIR$/crawler-first/src/test/java/jsoup/JsoupFirstTest.java" />
@@ -75,7 +88,6 @@
         <option value="$PROJECT_DIR$/crawler-first/src/main/java/com/crawler/test/HttpPostWithLoginTest.java" />
         <option value="$PROJECT_DIR$/crawler-jd/src/main/java/com/jsu/service/impl/ItemServiceImpl.java" />
         <option value="$PROJECT_DIR$/crawler-jd/src/main/java/com/jsu/task/ItemTask.java" />
-        <option value="$PROJECT_DIR$/crawler-first/src/main/java/com/crawler/test/HttpGetTest.java" />
         <option value="$PROJECT_DIR$/crawler-webmagic/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/crawler-jd/src/main/java/com/jsu/task/ItemTask2.java" />
         <option value="$PROJECT_DIR$/crawler-job/src/main/java/com/job/pojo/JobInfo.java" />
@@ -96,7 +108,6 @@
         <option value="$PROJECT_DIR$/crawler-job/src/main/java/com/job/task/JobProcessor.java" />
         <option value="$PROJECT_DIR$/crawler-job/pom.xml" />
         <option value="$PROJECT_DIR$/crawler-webmagic/pom.xml" />
-        <option value="$PROJECT_DIR$/crawler-job/src/main/java/com/job/task/ProxyTest.java" />
         <option value="$PROJECT_DIR$/crawler-es/src/main/java/com/es/pojo/ItemRepository.java" />
         <option value="$PROJECT_DIR$/crawler-es/src/main/java/com/es/service/ItemService.java" />
         <option value="$PROJECT_DIR$/crawler-es/src/main/java/com/es/dao/ItemServiceImpl.java" />
@@ -105,10 +116,22 @@
         <option value="$PROJECT_DIR$/crawler-es/src/test/java/ESTest.java" />
         <option value="$PROJECT_DIR$/crawler-first/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/crawler-es/src/main/resources/log4j.properties" />
-        <option value="$PROJECT_DIR$/crawler-es/src/main/resources/applicationContext.xml" />
         <option value="$PROJECT_DIR$/crawler-es/src/main/java/com/es/dao/ItemRepository.java" />
-        <option value="$PROJECT_DIR$/crawler-es/pom.xml" />
+        <option value="$PROJECT_DIR$/crawler-es/src/main/resources/applicationContext.xml" />
         <option value="$PROJECT_DIR$/crawler-es/src/main/java/com/es/pojo/Item.java" />
+        <option value="$PROJECT_DIR$/crawler-es/pom.xml" />
+        <option value="$PROJECT_DIR$/crawler-tm/pom.xml" />
+        <option value="$PROJECT_DIR$/crawler-tm/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/crawler-tm/src/main/java/com/tm/Application3.java" />
+        <option value="$PROJECT_DIR$/crawler-tm/src/main/java/com/tm/dao/Goods.java" />
+        <option value="$PROJECT_DIR$/crawler-tm/src/main/java/com/tm/dao/GoodsDao.java" />
+        <option value="$PROJECT_DIR$/crawler-tm/src/main/java/com/tm/pojo/Goods.java" />
+        <option value="$PROJECT_DIR$/crawler-tm/src/main/java/com/tm/service/GoodsService.java" />
+        <option value="$PROJECT_DIR$/crawler-tm/src/main/java/com/tm/service/impl/GoodsServiceImpl.java" />
+        <option value="$PROJECT_DIR$/crawler-job/src/main/java/com/job/task/ProxyTest.java" />
+        <option value="$PROJECT_DIR$/crawler-tm/src/main/java/com/tm/task/SpringDataPipeline.java" />
+        <option value="$PROJECT_DIR$/crawler-first/src/main/java/com/crawler/test/HttpGetTest.java" />
+        <option value="$PROJECT_DIR$/crawler-tm/src/main/java/com/tm/task/JobProcessor.java" />
       </list>
     </option>
   </component>
@@ -124,16 +147,11 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="simhasher" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="crawler-es" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="simhasher" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="simhasher" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="crawler-es" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
       </expand>
@@ -141,8 +159,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-54" />
-    <option name="y" value="58" />
+    <option name="x" value="-55" />
+    <option name="y" value="57" />
     <option name="width" value="1940" />
     <option name="height" value="1060" />
   </component>
@@ -162,6 +180,51 @@
               <item name="crawler" type="b2602c69:ProjectViewProjectNode" />
               <item name="Crawler" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="crawler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Crawler" type="462c0819:PsiDirectoryNode" />
+              <item name="crawler-tm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="crawler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Crawler" type="462c0819:PsiDirectoryNode" />
+              <item name="crawler-tm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="crawler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Crawler" type="462c0819:PsiDirectoryNode" />
+              <item name="crawler-tm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="crawler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Crawler" type="462c0819:PsiDirectoryNode" />
+              <item name="crawler-tm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="crawler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Crawler" type="462c0819:PsiDirectoryNode" />
+              <item name="crawler-tm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="crawler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Crawler" type="462c0819:PsiDirectoryNode" />
+              <item name="crawler-tm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tm" type="462c0819:PsiDirectoryNode" />
+              <item name="task" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -176,7 +239,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="E:/Mall/SSM_Mall" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -186,12 +249,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.tm.task" />
+      <recent name="com.tm" />
       <recent name="com.jsu.webmagic.test" />
       <recent name="com.job.pojo" />
       <recent name="com.jsu.task" />
-      <recent name="com.crawler.test" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IntelliJ IDEA\Crawler\crawler-tm\src\main\resources" />
       <recent name="E:\IntelliJ IDEA\Crawler\crawler-job\src\main\resources" />
     </key>
   </component>
@@ -213,7 +278,20 @@
     </option>
     <option name="contentProportion" value="0.1659836" />
   </component>
-  <component name="RunManager" selected="JUnit.ESTest.createIndex">
+  <component name="RunManager" selected="Spring Boot.Application3">
+    <configuration name="HttpGetTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.crawler.test.HttpGetTest" />
+      <module name="crawler-first" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.crawler.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ESTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="crawler-es" />
       <extension name="coverage">
@@ -238,16 +316,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ESTest.createIndex (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="crawler-es" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ESTest" />
-      <option name="METHOD_NAME" value="createIndex" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ESTest.createIndex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="crawler-es" />
       <extension name="coverage">
@@ -264,26 +332,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Application2" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="crawler-job" />
+    <configuration name="Application3" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="crawler-tm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.job.*" />
+          <option name="PATTERN" value="com.tm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.job.Application2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tm.Application3" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.Application3" />
+        <item itemvalue="Application.HttpGetTest" />
         <item itemvalue="JUnit.ESTest.createIndex" />
         <item itemvalue="JUnit.ESTest (1)" />
         <item itemvalue="JUnit.ESTest" />
-        <item itemvalue="JUnit.ESTest.createIndex (1)" />
-        <item itemvalue="Spring Boot.Application2" />
       </list>
     </recent_temporary>
   </component>
@@ -319,7 +387,7 @@
       <workItem from="1561108547052" duration="1868000" />
       <workItem from="1561124711003" duration="7477000" />
       <workItem from="1561172857840" duration="984000" />
-      <workItem from="1561184280005" duration="10748000" />
+      <workItem from="1561184280005" duration="23750000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1561108627010</created>
@@ -370,48 +438,55 @@
       <option name="project" value="LOCAL" />
       <updated>1561187834102</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="commit">
+      <created>1561197711156</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1561197711156</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ESTest_(1) - 2019.06.22 at 17h 13m 46s.xml">
-      <configuration name="ESTest (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ESTest_(1) - 2019.06.22 at 17h 15m 00s.xml">
-      <configuration name="ESTest (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ESTest_createIndex - 2019.06.22 at 17h 15m 29s.xml">
-      <configuration name="ESTest.createIndex" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ESTest_createIndex - 2019.06.22 at 17h 18m 12s.xml">
-      <configuration name="ESTest.createIndex" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ESTest_createIndex - 2019.06.22 at 17h 18m 36s.xml">
-      <configuration name="ESTest.createIndex" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ESTest_createIndex - 2019.06.22 at 17h 21m 49s.xml">
-      <configuration name="ESTest.createIndex" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ESTest_createIndex - 2019.06.22 at 17h 22m 24s.xml">
-      <configuration name="ESTest.createIndex" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ESTest_createIndex - 2019.06.22 at 17h 25m 21s.xml">
-      <configuration name="ESTest.createIndex" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ESTest_createIndex - 2019.06.22 at 17h 36m 41s.xml">
-      <configuration name="ESTest.createIndex" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ESTest_createIndex - 2019.06.22 at 17h 37m 18s.xml">
+      <configuration name="ESTest.createIndex" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ESTest_createIndex - 2019.06.22 at 19h 19m 28s.xml">
+      <configuration name="ESTest.createIndex" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ESTest_createIndex - 2019.06.22 at 19h 28m 57s.xml">
+      <configuration name="ESTest.createIndex" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ESTest_createIndex - 2019.06.22 at 19h 29m 32s.xml">
+      <configuration name="ESTest.createIndex" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ESTest_createIndex - 2019.06.22 at 19h 31m 10s.xml">
+      <configuration name="ESTest.createIndex" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ESTest_createIndex - 2019.06.22 at 19h 32m 31s.xml">
+      <configuration name="ESTest.createIndex" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ESTest_createIndex - 2019.06.22 at 19h 45m 25s.xml">
+      <configuration name="ESTest.createIndex" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ESTest_createIndex - 2019.06.22 at 19h 47m 25s.xml">
+      <configuration name="ESTest.createIndex" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ESTest_createIndex - 2019.06.22 at 19h 48m 50s.xml">
+      <configuration name="ESTest.createIndex" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ESTest_createIndex - 2019.06.22 at 19h 49m 55s.xml">
       <configuration name="ESTest.createIndex" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104554000" />
+    <option name="totallyTimeSpent" value="117556000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18431635" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16756032" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -421,7 +496,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3282123" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.12849163" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3170391" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.69456065" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -434,7 +509,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" />
-      <window_info anchor="bottom" id="Run Dashboard" order="15" weight="0.3519553" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" weight="0.35055867" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -491,118 +566,25 @@
     <MESSAGE value="commit" />
     <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/crawler-tm/src/main/java/com/tm/task/JobProcessor.java</url>
+          <line>87</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="selectable" />
+        <watch expression="html" />
+      </configuration>
+    </watches-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/crawler-jd/src/main/java/com/jsu/service/impl/ItemServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="26" column="32" lean-forward="true" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#600#601#0" expanded="true" />
-            <element signature="e#639#640#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crawler-jd/src/main/java/com/jsu/task/ItemTask2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1463">
-          <caret line="77" column="46" selection-start-line="77" selection-start-column="46" selection-end-line="77" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crawler-job/src/main/java/com/job/service/JobInfoService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar!/org/apache/commons/collections/CollectionUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="587" selection-start-line="587" selection-end-line="587" />
-          <folding>
-            <element signature="e#18103#18104#0" expanded="true" />
-            <element signature="e#18156#18157#0" expanded="true" />
-            <element signature="e#18250#18251#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/us/codecraft/webmagic-core/0.6.1/webmagic-core-0.6.1.jar!/us/codecraft/webmagic/ResultItems.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
-          <folding>
-            <element signature="e#950#951#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/us/codecraft/webmagic-core/0.6.1/webmagic-core-0.6.1.jar!/us/codecraft/webmagic/Spider.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="307" selection-start-line="307" selection-end-line="307" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crawler-first/src/main/java/com/crawler/test/util/CookieUtils.java" />
-    <entry file="file://$PROJECT_DIR$/crawler-first/src/main/java/com/crawler/test/CrawlerFirst.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-173">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/us/codecraft/webmagic-core/0.6.1/webmagic-core-0.6.1.jar!/us/codecraft/webmagic/Page.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-          <folding>
-            <element signature="e#3747#3748#0" expanded="true" />
-            <element signature="e#3786#3787#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/JAVA/JDK/jre/lib/rt.jar!/sun/misc/Unsafe.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="353" column="23" selection-start-line="353" selection-start-column="23" selection-end-line="353" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/JAVA/JDK/src.zip!/java/lang/ClassLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="403" selection-start-line="403" selection-end-line="403" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/JAVA/JDK/src.zip!/java/net/SocketInputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="93" column="23" selection-start-line="93" selection-start-column="23" selection-end-line="93" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/us/codecraft/webmagic-core/0.6.1/webmagic-core-0.6.1.jar!/us/codecraft/webmagic/selector/AbstractSelectable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="e#524#525#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.m2/repository/us/codecraft/webmagic-core/0.6.1/webmagic-core-0.6.1.jar!/us/codecraft/webmagic/selector/HtmlNode.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
@@ -656,16 +638,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crawler-job/src/main/java/com/job/pojo/JobInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1290">
-          <caret line="54" column="54" selection-start-line="54" selection-start-column="54" selection-end-line="54" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/crawler-webmagic/src/main/java/com/jsu/webmagic/test/JobProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -701,52 +673,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crawler-job/src/main/java/com/job/Application2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/crawler-job/crawler-job.iml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crawler-job/src/main/java/com/job/service/impl/JobInfoServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="936">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/simhash-master/src/main/java/com/lou/simhasher/KeywordExtractor.java" />
     <entry file="file://$PROJECT_DIR$/simhash-master/README.md" />
     <entry file="file://$PROJECT_DIR$/simhash-master/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/crawler-job/src/main/java/com/job/task/SpringDataPipeline.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crawler-job/src/main/java/com/job/task/TaskTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.m2/repository/us/codecraft/webmagic-core/0.6.1/webmagic-core-0.6.1.jar!/us/codecraft/webmagic/downloader/HttpClientDownloader.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-26">
@@ -762,26 +694,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="346">
           <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crawler-job/src/main/java/com/job/task/ProxyTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="607">
-          <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crawler-job/src/main/java/com/job/task/JobProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="101" column="6" selection-start-line="101" selection-start-column="6" selection-end-line="101" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -839,13 +751,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crawler-job/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="52" column="83" selection-start-line="52" selection-start-column="83" selection-end-line="52" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/crawler-es/src/main/java/com/es/dao/ItemRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -858,15 +763,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/crawler-es/src/main/resources/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="-54">
+          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/crawler-es/src/main/java/com/es/pojo/Item.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="19" column="4" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+        <state relative-caret-position="186">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -875,8 +780,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/crawler-es/src/main/java/com/es/test/ESTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="186">
+          <caret line="31" column="59" selection-start-line="31" selection-start-column="59" selection-end-line="31" selection-end-column="59" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -885,8 +790,197 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/crawler-es/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="89" column="44" selection-start-line="89" selection-start-column="44" selection-end-line="89" selection-end-column="44" />
+        <state relative-caret-position="66">
+          <caret line="27" column="21" lean-forward="true" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawler-job/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="88" selection-start-line="13" selection-start-column="4" selection-end-line="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawler-tm/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2610">
+          <caret line="87" column="12" selection-start-line="87" selection-start-column="12" selection-end-line="87" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawler-tm/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" column="54" selection-start-line="2" selection-start-column="54" selection-end-line="2" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawler-tm/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawler-job/src/main/java/com/job/Application2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawler-job/src/main/java/com/job/dao/JobInfoDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawler-tm/src/main/java/com/tm/dao/GoodsDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="5" column="61" selection-start-line="5" selection-start-column="61" selection-end-line="5" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawler-job/src/main/java/com/job/pojo/JobInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2228">
+          <caret line="11" column="55" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="11" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawler-job/src/main/java/com/job/service/JobInfoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawler-tm/src/main/java/com/tm/pojo/Goods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="83" column="28" selection-start-line="83" selection-start-column="28" selection-end-line="83" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1509#1510#0" expanded="true" />
+            <element signature="e#1547#1548#0" expanded="true" />
+            <element signature="e#1577#1578#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawler-tm/src/main/java/com/tm/service/impl/GoodsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="38" column="46" selection-start-line="38" selection-start-column="46" selection-end-line="38" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawler-job/src/main/java/com/job/service/impl/JobInfoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="34" column="14" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawler-job/src/main/java/com/job/task/SpringDataPipeline.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6">
+          <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawler-job/src/main/java/com/job/task/TaskTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawler-job/src/main/java/com/job/task/JobProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="772">
+          <caret line="101" column="6" selection-start-line="101" selection-start-column="6" selection-end-line="101" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawler-tm/src/main/java/com/tm/service/GoodsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawler-tm/src/main/java/com/tm/task/SpringDataPipeline.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="47" lean-forward="true" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawler-first/src/main/java/com/crawler/test/HttpGetTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="21" column="206" selection-start-line="21" selection-start-column="206" selection-end-line="21" selection-end-column="206" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawler-tm/src/main/java/com/tm/Application3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <folding>
+            <element signature="e#440#441#0" expanded="true" />
+            <element signature="e#503#504#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawler-job/src/main/java/com/job/task/ProxyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawler-tm/src/main/java/com/tm/task/JobProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="87" selection-start-line="87" selection-end-line="87" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

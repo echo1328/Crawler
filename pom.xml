@@ -14,6 +14,7 @@
         <module>crawler-webmagic</module>
         <module>crawler-job</module>
         <module>crawler-es</module>
+        <module>crawler-tm</module>
     </modules>
 
 

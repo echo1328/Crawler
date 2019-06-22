@@ -19,7 +19,7 @@ public class HttpGetTest {
         //创建HttpClient对象
         CloseableHttpClient httpClient = HttpClients.createDefault();
         //创建HttpGet对象，设置url访问地址
-        HttpGet httpGet = new HttpGet("https://item.yhd.com/100005882542.html");
+        HttpGet httpGet = new HttpGet("https://detail.tmall.com/item.htm?spm=a230r.1.14.1.28da6fbeAxVfTq&id=579794586729&cm_id=140105335569ed55e27b&abbucket=19&sku_properties=10004:709990523;5919063:6536025");
 
         CloseableHttpResponse response = null;
         try {

@@ -17,7 +17,7 @@ import org.springframework.data.elasticsearch.annotations.FieldIndex;
 public class Item {
 
     @Id
-    @Field(index = true,store = true,type = FieldType.Integer)
+    @Field(store = true,type = FieldType.Integer)
     private Integer id;
 
     @Field(index = true,store = true,analyzer = "ik_smart",searchAnalyzer = "ik_smart",type = FieldType.text)

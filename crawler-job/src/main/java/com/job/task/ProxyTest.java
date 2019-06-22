@@ -10,8 +10,6 @@ import us.codecraft.webmagic.processor.PageProcessor;
 import us.codecraft.webmagic.proxy.Proxy;
 import us.codecraft.webmagic.proxy.SimpleProxyProvider;
 
-import static sun.management.snmp.AdaptorBootstrap.DefaultValues.PORT;
-
 /**
  * @program: crawler
  * @description: ProxyTest

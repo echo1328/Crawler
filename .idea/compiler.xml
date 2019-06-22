@@ -6,11 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="crawler-jd" />
-        <module name="crawler-first" />
-        <module name="crawler-es" />
-        <module name="crawler-webmagic" />
         <module name="crawler-job" />
+        <module name="crawler-first" />
+        <module name="crawler-tm" />
+        <module name="crawler-webmagic" />
+        <module name="crawler-jd" />
+        <module name="crawler-es" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
