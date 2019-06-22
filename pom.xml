@@ -13,6 +13,7 @@
         <module>crawler-jd</module>
         <module>crawler-webmagic</module>
         <module>crawler-job</module>
+        <module>crawler-es</module>
     </modules>
 
 

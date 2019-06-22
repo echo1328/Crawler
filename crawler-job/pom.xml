@@ -46,7 +46,7 @@
         <dependency>
             <groupId>us.codecraft</groupId>
             <artifactId>webmagic-core</artifactId>
-            <version>0.6.1</version>
+            <version>0.7.3</version>
         </dependency>
 
         <!-- WebMagic扩展 -->
@@ -54,7 +54,7 @@
         <dependency>
             <groupId>us.codecraft</groupId>
             <artifactId>webmagic-extension</artifactId>
-            <version>0.6.1</version>
+            <version>0.7.3</version>
         </dependency>
 
         <!-- WebMagic对布隆过滤器的支持 -->

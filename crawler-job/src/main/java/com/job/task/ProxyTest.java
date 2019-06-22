@@ -7,8 +7,8 @@ import us.codecraft.webmagic.Site;
 import us.codecraft.webmagic.Spider;
 import us.codecraft.webmagic.downloader.HttpClientDownloader;
 import us.codecraft.webmagic.processor.PageProcessor;
-
-import java.lang.reflect.Proxy;
+import us.codecraft.webmagic.proxy.Proxy;
+import us.codecraft.webmagic.proxy.SimpleProxyProvider;
 
 import static sun.management.snmp.AdaptorBootstrap.DefaultValues.PORT;
 
@@ -28,6 +28,7 @@ public class ProxyTest implements PageProcessor {
         HttpClientDownloader httpClientDownloader = new HttpClientDownloader();
 
         //给下载器设置代理服务器消息
+        httpClientDownloader.setProxyProvider(SimpleProxyProvider.from(new Proxy("120.27.210.60",8080)));
 
         Spider.create(new ProxyTest())
                 .addUrl("http://ip.chinaz.com/")
