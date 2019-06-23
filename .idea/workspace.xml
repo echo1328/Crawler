@@ -2,29 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75f00053-5daa-4638-b1fd-3a36ba00f0fb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/crawler-tm/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crawler-tm/src/main/java/com/tm/Application3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crawler-tm/src/main/java/com/tm/dao/GoodsDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crawler-tm/src/main/java/com/tm/pojo/Goods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crawler-tm/src/main/java/com/tm/service/GoodsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crawler-tm/src/main/java/com/tm/service/impl/GoodsServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crawler-tm/src/main/java/com/tm/task/JobProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crawler-tm/src/main/java/com/tm/task/SpringDataPipeline.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crawler-tm/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crawler-tm/src/main/resources/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawler-es/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crawler-es/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawler-es/src/main/java/com/es/pojo/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/crawler-es/src/main/java/com/es/pojo/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawler-es/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crawler-es/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawler-es/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/crawler-es/target/classes/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawler-es/target/classes/com/es/pojo/Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/crawler-es/target/classes/com/es/pojo/Item.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/crawler-first/src/main/java/com/crawler/test/HttpGetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/crawler-first/src/main/java/com/crawler/test/HttpGetTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawler-first/target/classes/com/crawler/test/HttpGetTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/crawler-first/target/classes/com/crawler/test/HttpGetTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawler-first/target/classes/com/crawler/test/util/CookieUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawler-job/src/main/java/com/job/task/ProxyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/crawler-job/src/main/java/com/job/task/ProxyTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler-tm/src/main/java/com/tm/service/impl/GoodsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/crawler-tm/src/main/java/com/tm/service/impl/GoodsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler-tm/src/main/java/com/tm/task/JobProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/crawler-tm/src/main/java/com/tm/task/JobProcessor.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -50,8 +31,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/crawler-tm/src/main/java/com/tm/task/JobProcessor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="87" selection-start-line="87" selection-end-line="87" />
+            <state relative-caret-position="-43">
+              <caret line="47" column="16" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/crawler-tm/src/main/java/com/tm/service/impl/GoodsServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="31" column="10" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -127,10 +120,10 @@
         <option value="$PROJECT_DIR$/crawler-tm/src/main/java/com/tm/dao/GoodsDao.java" />
         <option value="$PROJECT_DIR$/crawler-tm/src/main/java/com/tm/pojo/Goods.java" />
         <option value="$PROJECT_DIR$/crawler-tm/src/main/java/com/tm/service/GoodsService.java" />
-        <option value="$PROJECT_DIR$/crawler-tm/src/main/java/com/tm/service/impl/GoodsServiceImpl.java" />
         <option value="$PROJECT_DIR$/crawler-job/src/main/java/com/job/task/ProxyTest.java" />
         <option value="$PROJECT_DIR$/crawler-tm/src/main/java/com/tm/task/SpringDataPipeline.java" />
         <option value="$PROJECT_DIR$/crawler-first/src/main/java/com/crawler/test/HttpGetTest.java" />
+        <option value="$PROJECT_DIR$/crawler-tm/src/main/java/com/tm/service/impl/GoodsServiceImpl.java" />
         <option value="$PROJECT_DIR$/crawler-tm/src/main/java/com/tm/task/JobProcessor.java" />
       </list>
     </option>
@@ -160,7 +153,7 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-55" />
-    <option name="y" value="57" />
+    <option name="y" value="56" />
     <option name="width" value="1940" />
     <option name="height" value="1060" />
   </component>
@@ -171,8 +164,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -223,12 +214,35 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="tm" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="crawler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Crawler" type="462c0819:PsiDirectoryNode" />
+              <item name="crawler-tm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tm" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="crawler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Crawler" type="462c0819:PsiDirectoryNode" />
+              <item name="crawler-tm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tm" type="462c0819:PsiDirectoryNode" />
               <item name="task" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -388,6 +402,8 @@
       <workItem from="1561124711003" duration="7477000" />
       <workItem from="1561172857840" duration="984000" />
       <workItem from="1561184280005" duration="23750000" />
+      <workItem from="1561215183448" duration="188000" />
+      <workItem from="1561251324724" duration="2948000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1561108627010</created>
@@ -445,7 +461,14 @@
       <option name="project" value="LOCAL" />
       <updated>1561197711156</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="commit">
+      <created>1561215355139</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1561215355139</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -481,12 +504,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117556000" />
+    <option name="totallyTimeSpent" value="120692000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16756032" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17158177" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -496,8 +520,8 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3282123" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3170391" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.69456065" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.41480446" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.12569833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -509,7 +533,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" />
-      <window_info anchor="bottom" id="Run Dashboard" order="15" weight="0.35055867" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" weight="0.4678771" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -567,16 +591,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/crawler-tm/src/main/java/com/tm/task/JobProcessor.java</url>
-          <line>87</line>
-          <properties />
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="SpringBootApplicationConfigurationType">
         <watch expression="selectable" />
@@ -744,13 +758,7 @@
     <entry file="file://$PROJECT_DIR$/crawler-webmagic/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/crawler-es/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/crawler-es/src/main/resources/log4j.properties" />
     <entry file="file://$PROJECT_DIR$/crawler-es/src/main/java/com/es/dao/ItemRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -876,16 +884,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crawler-tm/src/main/java/com/tm/service/impl/GoodsServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="38" column="46" selection-start-line="38" selection-start-column="46" selection-end-line="38" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/crawler-job/src/main/java/com/job/service/impl/JobInfoServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -946,13 +944,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crawler-first/src/main/java/com/crawler/test/HttpGetTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="21" column="206" selection-start-line="21" selection-start-column="206" selection-end-line="21" selection-end-column="206" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/crawler-tm/src/main/java/com/tm/Application3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
@@ -974,10 +965,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/crawler-first/src/main/java/com/crawler/test/HttpGetTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="24" column="76" selection-start-line="24" selection-start-column="76" selection-end-line="24" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawler-tm/src/main/java/com/tm/service/impl/GoodsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="31" column="10" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/crawler-tm/src/main/java/com/tm/task/JobProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="87" selection-start-line="87" selection-end-line="87" />
+        <state relative-caret-position="-43">
+          <caret line="47" column="16" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

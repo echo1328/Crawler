@@ -5,6 +5,9 @@ import org.apache.http.client.methods.HttpGet;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
 import org.apache.http.util.EntityUtils;
+import org.jsoup.Jsoup;
+import org.jsoup.nodes.Element;
+import org.jsoup.select.Elements;
 
 import java.io.IOException;
 
@@ -19,7 +22,7 @@ public class HttpGetTest {
         //创建HttpClient对象
         CloseableHttpClient httpClient = HttpClients.createDefault();
         //创建HttpGet对象，设置url访问地址
-        HttpGet httpGet = new HttpGet("https://detail.tmall.com/item.htm?spm=a230r.1.14.1.28da6fbeAxVfTq&id=579794586729&cm_id=140105335569ed55e27b&abbucket=19&sku_properties=10004:709990523;5919063:6536025");
+        HttpGet httpGet = new HttpGet("https://item.jd.com/100003464635.html");
 
         CloseableHttpResponse response = null;
         try {

@@ -45,8 +45,10 @@ public class JobProcessor implements PageProcessor {
         } else {
             //如果不为空，表示这是列表页,解析出详情页的url地址，放到任务队列中
             for (Selectable selectable : list) {
+
                 //获取url地址
                 String jobInfoUrl = selectable.css("div.productImg-wrap").links().toString();
+
                 //把获取到的url地址放到任务队列中
                 page.addTargetRequest(jobInfoUrl);
             }
@@ -67,17 +69,15 @@ public class JobProcessor implements PageProcessor {
         Html html = page.getHtml();
 
         //获取数据，封装到对象中
-        String name = html.css("div#J_DetailMeta div.tb-detail-hd h1 a","text").toString();
+        //String name = html.css("div#J_DetailMeta div.tb-detail-hd h1 a","text").toString();
         String caption = html.css("div#J_DetailMeta div.tb-detail-hd p","text").toString();
         int score = Integer.parseInt(html.css("span.tm-count","text").toString().trim());
         String url = page.getUrl().toString();
         String image = html.css("img#J_ImgBooth","src").toString();
         String sale = html.css("li#J_ItemRates","text").toString();
-        //String activity = html.css("div.tm-shopPromo-panel dd","text").toString();
 
         //Selectable selectable = html.css("div.tm-shopPromo-panel");
 
-        goods.setName(name);
         goods.setCaption(caption);
         goods.setScore(score);
         goods.setUrl(url);
